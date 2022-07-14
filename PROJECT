@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: kubebuilder-sample
 repo: github.com/rnakamine/kubebuilder-sample
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: rnakamine.com
+  group: webapp
+  kind: Guestbook
+  path: github.com/rnakamine/kubebuilder-sample/api/v1
+  version: v1
 version: "3"
