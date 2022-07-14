@@ -1,0 +1,6 @@
+domain: rnakamine.com
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-sample
+repo: github.com/rnakamine/kubebuilder-sample
+version: "3"
